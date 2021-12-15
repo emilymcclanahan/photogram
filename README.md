@@ -1,21 +1,23 @@
-# CSE330
+This is a social media app (similar to Instagram or Facebook) where you can post pictures and view other users' content.
 
-AMEE ROTHMAN - 475030 - arothman11
+Link to the site: http://ec2-3-14-152-126.us-east-2.compute.amazonaws.com:3000/ 
 
-EMILY MCCLANAHAN - 464202 - emilymcclanahan
+Languages/Frameworks Used:
 
-Link to our site: http://ec2-3-14-152-126.us-east-2.compute.amazonaws.com:3000/ 
+React (front-end)
+Express (Node.JS)
+MySQL (database)
+AWS S3 Buckets for photo uploads
 
-Creative Portion:
-- using aws s3 buckets for photo uploads (TA Alex Stepansky approved this for 5 points)
-- search bar (5 points)
-- deleting account (5 points)
-- private accounts (5 points)
+Functionality:
 
-
-TODO:
-- like (unlike?)
-- css
-- resize for mobile
-
-
+Users can create account (username w/hashed password)
+Users can post pictures with caption
+Other users can like and comment
+Users can delete their own comments and posts, and comments on their own pictures
+Users can view others profiles
+Users can create a profile with a name and bio, and can edit this after they register
+Users can search for profiles by username
+Users can delete their own accounts
+Users can make their accounts private so that other users cannot see their posts
+The site resizes for mobile layout
