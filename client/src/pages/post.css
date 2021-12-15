@@ -1,0 +1,170 @@
+.post{
+    margin: auto;
+    width: 700px;
+    border: 1px solid lightgray;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.post-header{
+    /* border-bottom: 1px solid lightgray;  */
+    display: flex;
+    align-items:center;
+    padding: 9px;
+}
+
+.post-profile-pic{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.post form {
+    border-top: 0.5px solid lightgrey; 
+}
+
+.post form input {
+    width: 630px;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-style: 16px;
+}
+
+.post form input:focus{
+    outline: none;
+}
+
+.post form button{
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    color: rgba(0,149,246,255);
+    opacity: 50%;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+}
+
+.post form button:hover{
+    cursor: pointer;
+}
+
+.numLikes i{
+    color: red;
+    font-size: 25px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.far {
+    color: grey !important;
+}
+
+.numLikes i:hover{
+    cursor: pointer;
+}
+
+.numLikes{
+    padding: 5px;
+    margin: 2px;
+}
+
+.post-profile-pic {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 0.25px solid lightgrey;
+}
+
+.trash-span {
+    width: 600px;
+    text-align: right;
+}
+
+.trash{
+    text-align: right;
+    margin-top: 8px;
+    color: rgb(138, 136, 136);
+    cursor: pointer;
+}
+
+.caption-user{
+    font-weight: bolder;
+    padding-right: 3px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.comment-section{
+    display: block;
+    max-height: 80px;
+    overflow: auto;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.caption-section{
+    box-shadow: 0px 1px 10px lightgrey;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.caption:blank .caption-user{
+    display: none;
+}
+
+.link {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+    .post {
+        width: 100%;
+    }
+    .trash-span {
+        width: 90%;
+    }
+    .post-img{
+        width: 100%;
+    }
+    .post form input {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .post {
+        width: 100%;
+    }
+    .trash-span {
+        width: 90%;
+    }
+    .post-img{
+        width: 100%;
+    }
+    .post form input {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .post {
+        width: 100%;
+    }
+    .trash-span {
+        width: 90%;
+    }
+    .post-img{
+        width: 100%;
+    }
+    .post form input {
+        width: 75%;
+    }
+}

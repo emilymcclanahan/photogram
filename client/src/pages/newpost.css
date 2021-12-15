@@ -1,0 +1,35 @@
+#upload-box{
+    padding: 10px;
+    margin: 10px;
+    position: fixed;
+    display: none;
+}
+
+#postbtn {
+    color: rgba(0,149,246,255) !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+
+#caption-label {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    #upload-box {
+        position: fixed;
+        bottom: 80px;
+        height: 22vh;
+        background-color: rgba(250,250,250,255);
+        width: 110%;
+        margin: 0;
+    }
+
+    #caption-label {
+        margin-left: 0;
+        width: 80%;
+        text-align: center;
+    }
+}

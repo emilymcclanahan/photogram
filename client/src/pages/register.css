@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(250,250,250,255);
+}
+#register{
+    margin: auto;
+    top: 500px;
+    text-align: center;
+}
+
+.data{
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+
+.btn{
+    width: 310px;
+    padding: 5px;
+    background-color: rgb(95, 144, 160);
+    border: none;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+#h1-register{
+    text-align: center;
+}
+
+.error{
+    color: red;
+    font-style: italic;
+}
